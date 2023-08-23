@@ -62,13 +62,13 @@
 			children = (
 				A0202D4F2A95D24C00195634 /* AppDelegate.swift */,
 				A0202D642A95D26C00195634 /* Classes.swift */,
+				A0202D662A95D84000195634 /* CustomOperator.swift */,
 				A0202D512A95D24C00195634 /* SceneDelegate.swift */,
 				A0202D532A95D24C00195634 /* ViewController.swift */,
 				A0202D552A95D24C00195634 /* Main.storyboard */,
 				A0202D582A95D24E00195634 /* Assets.xcassets */,
 				A0202D5A2A95D24E00195634 /* LaunchScreen.storyboard */,
 				A0202D5D2A95D24E00195634 /* Info.plist */,
-				A0202D662A95D84000195634 /* CustomOperator.swift */,
 			);
 			path = SwiftProperties;
 			sourceTree = "<group>";

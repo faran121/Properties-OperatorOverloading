@@ -7,7 +7,7 @@
 
 import Foundation
 
-// Class with stored properties
+//MARK: - Class with stored properties
 class Person: NSObject {
     var name: String        // Stored property
     var age: Int            // Another stored property
@@ -20,12 +20,12 @@ class Person: NSObject {
     }
 }
 
-// Class with initailized stored properties
+//MARK: - Class with initailized stored properties
 class CircleStored: NSObject {
     var radius: Double = 1.0
 }
 
-// Struct with Computed Property
+//MARK: - Struct with Computed Property
 struct Circle {
     var radius: Double
     
@@ -34,7 +34,7 @@ struct Circle {
     }
 }
 
-// Struct with Computed Properties
+//MARK: - Struct with Computed Properties
 struct Temperature {
     var celsius: Double
     
@@ -46,4 +46,10 @@ struct Temperature {
             celsius = (newValue - 32) * 5/9
         }
     }
+}
+
+//MARK: - Struct with Stored Properties
+struct Thing {
+    let name: String
+    let age: Int
 }

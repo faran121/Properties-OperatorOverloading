@@ -7,13 +7,16 @@
 
 import Foundation
 
-// Custom operator
-prefix operator ***
-infix operator +++
-postfix operator ---
+// Custom Operators
+infix operator +++: AdditionPrecedence
+infix operator <~>: ComparisonPrecedence
 
 // +++ Definition
 func +++(lhs: Double, rhs: Double) -> Double {
     return pow(lhs, rhs)
 }
 
+// <~> Definition
+func <~>(lhs: Thing, rhs: Thing) -> Bool {
+    return lhs.age < rhs.age
+}
